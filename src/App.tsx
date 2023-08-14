@@ -14,7 +14,7 @@ function App() {
 
   return (
     <>
-      <div>
+      <div className="bg-[#242424] text-white h-screen text-center">
         <button onClick={inc}>+</button>
         <p>{count}</p>
         <button onClick={dec}>-</button>
